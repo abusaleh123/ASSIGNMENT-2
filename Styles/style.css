@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
-
+*{
+    /* margin: 0px; */
+    /* padding:0px;; */
+}
 body {
     font-family: "Inter", sans-serif;
     background-color: black;
@@ -119,7 +122,7 @@ body {
     margin-bottom: 28px;
 }
 
-span{
+span {
     color: #FFFFFF;
     font-family: "miama";
     color: #FFFFFF;
@@ -482,21 +485,21 @@ input[type="text"] {
 }
 
 .meet-description {
-    width: 550px;
+    width: 750px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .meet-image-container {
-    width: 100%;
-    /* height:700px; */
+    width:1060px;;
+    height:604px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
     justify-items: center;
     background-color: #222222;
     padding: 20px;
-    gap: 10px;
+    gap: 20px;
     border-radius: 16px;
     ;
 }
@@ -506,6 +509,14 @@ input[type="text"] {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+   
+    margin:0px;
+    margin-left:10px;
+    
+}
+.trainer{
+    margin-left:10px;
+    margin-bottom:15px;;
 }
 
 .meet-photo {
@@ -517,16 +528,15 @@ input[type="text"] {
 .meet-image1 {
     background-image: url(../images/trainer1.png);
     width: 100%;
-    height: 100%;
-    background-position-x: center;
-    background-position-y: top;
+    /* height: 100%; */
+    background-position-x:center;
     border-radius: 10px;
 }
 
 .meet-image2 {
     background-image: url(../images/trainer2.png);
-    width: 100%;
-    height: 100%;
+     width: 100%;
+    /* height: 100%; */ 
     background-position-x: center;
     background-position-y: top;
     border-radius: 10px;
@@ -536,8 +546,7 @@ input[type="text"] {
     background-image: url(../images/trainer3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width:100%;
     /* background-position-x: ; */
     background-position-y: top;
     border-radius: 10px;
@@ -545,30 +554,27 @@ input[type="text"] {
 
 .meet-image4 {
     background-image: url(../images/trainer4.png);
-    width: 100%;
-    height: 100%;
-    background-position-x: center;
-    background-position-y: top;
+ width:100%;
+    background-size: cover;
+    background-position-x:center;
     border-radius: 10px;
 }
 
 .meet-image5 {
     background-image: url(../images/trainer5.png);
     background-repeat: no-repeat;
-    width: 350px;
-    height: 250px;
-    background-position-x: center;
-    background-position-y: center;
+    width:100%;
+    background-size:cover;
     border-radius: 10px;
 }
 
 .meet-image6 {
     background-image: url(../images/trainer6.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-position-y: center;
-    /* background-position: center; */
+  width:100%;
+  /* background-position: center; */
+   background-size: cover;
+    
     border-radius: 10px;
 }
 
@@ -688,13 +694,14 @@ input[type="text"] {
         display: flex;
         flex-direction: column;
     }
-    span{
+
+    span {
         color: #FFFFFF;
         font-family: "miama";
         font-size: 8rem;
         font-weight: 400;
     }
-    
+
 
     .photo-content {
         position: absolute;
@@ -806,5 +813,82 @@ input[type="text"] {
 
     .card-description {
         font-size: 0.9rem;
+    }
+    .calculation{
+        /* display:flex; */
+        /* flex-direction: column; */
+        margin-bottom:100px;
+        /* background-color: #222222; */
+    }
+    .calculation-container{
+        display:flex;
+        flex-direction: column;
+        /* margin-top:100px; */
+        margin-top:0;
+        padding-top:0;
+        width:100%;
+        height:772px;;
+        /* margin-top:50px; */
+        gap:0px;
+        padding:calc(100% - 97%);
+        background-color: #222222;
+        /* padding:0px 15px; */
+        justify-content: flex-start;
+
+        
+    }
+    .chart-title{
+        margin-top:10px;
+        padding:0px;
+        font-size:1.5rem;
+    }
+    .calculator-chart{
+        margin:0px;
+        padding:0px;
+        gap:0px;
+        height:auto
+    }
+    .table {
+        margin:0px;
+        padding:0px;
+        height:auto;
+    }
+    .meet-image-container{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        width:100%;
+        height:1700px;
+        /* padding-left:10px; */
+
+    }
+    .meet-main-title {
+        width:250px;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .meet-description{
+        width:100%;
+    }
+    .footer{
+        width:100%;
+        height:748px;
+        justify-content: flex-start;
+        margin-top:0px;
+        padding:40px 0px;
+        /* margin-left:10px; */
+    }
+    .footer-container{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: start;
+        gap:10px;
+        margin-top:10px;
+    }
+    .footer-first-description{
+        width:100%;
+    }
+    .footer-first-sec{
+        margin-top:0px;
     }
 }
