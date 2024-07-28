@@ -1135,10 +1135,24 @@ input[type="text"] {
         width: 100%;
     }
 
+    .feature-card-container{
+        display:grid;
+        grid-template-columns:1fr;
+        margin-bottom:100px;
+        justify-items: center;
+    }
+    .feature-card{
+        width: 100%;
+    }
+    .feature-card-title{
+        font-size:1.5rem;
+    }
+
     .footer {
         width:calc(100% - 50px);
         height: 748px;
         justify-content:center;
+        justify-items: center;
         margin-top: 0px;
         padding: 40px 10px;
         /* margin-left:10px; */
