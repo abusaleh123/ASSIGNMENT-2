@@ -1152,6 +1152,7 @@ input[type="text"] {
         width:calc(100% - 50px);
         height: 748px;
         justify-content:center;
+        align-items: center;
         justify-items: center;
         margin-top: 0px;
         padding: 40px 10px;
