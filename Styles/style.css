@@ -433,8 +433,10 @@ body {
     background-color:rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     /* width:100%; */
-    background-size:cover;
-    background-position-y:bottom;
+    /* background-size:cover; */
+    /* background-size: contain; */
+    background-position-y: b;
+    background-position-x:left;
 }
 .exercise-photo5{
     background: url(../images/exercise5.jpg);
@@ -456,7 +458,8 @@ body {
 }
 #fraction4{
     grid-column:span 2;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position-y:top ;
     /* background:rgba(0, 0, 0, 0.5); */
   }
