@@ -445,7 +445,7 @@ body {
 .exercise-photo6{
     background:url(../images/exercise6.jpg);
     background-color:rgba(0, 71, 255, 0.3);
-    background-blend-mode: overlay;;
+    background-blend-mode: overlay;
     /* width:100%; */
     background-size:contain;
 }
@@ -1123,7 +1123,15 @@ input[type="text"] {
     }
 
     form {
-        width: 340px;
+        /* width: 340px; */
+    }
+    input{
+        width:90%;
+    }
+    input::placeholder{
+        color:#918c8c;
+        font-size:1rem;
+        font-weight: 600;
     }
 
     .meet {
