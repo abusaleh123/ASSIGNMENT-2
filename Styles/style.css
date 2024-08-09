@@ -346,6 +346,8 @@ body {
     display: flex;
     align-items: center;
     border-radius: 18px;
+    object-fit: none;
+object-position: 65% 30%;
 
 }
 
